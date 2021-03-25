@@ -36,7 +36,13 @@ image
 
 ## Media
 
-## Deploymnet
+## Photos
+Photo by Karolina Grabowska from Pexels - Orange w spiders
+Photo by Pedro Figueras from Pexels - hand in mist
+
+
+
+## Deployment
 
 ### How to run the project locally
 
@@ -45,6 +51,7 @@ image
 ## 
 
 ## Credits
+https://www.codeply.com/p/VVByb17KWb - sidebar
 
 ### Code
 

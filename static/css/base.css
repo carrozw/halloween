@@ -1,0 +1,74 @@
+body {
+    font-family: 'Syne Mono', monospace;
+    background-color: #FF8811;
+    color: #483D3F;
+    min-height: 100vh;
+}
+
+.halloween-nav {
+    background-color: #483D3F;
+}
+ a {
+     color: bisque;
+ }
+.halloween-hero-txt {
+    text-align: left;
+    color: #FF8811;
+}
+.halloween-hero-image {
+    background-image: url('/media/cat-in-the-moon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+ .halloween-sidebar a{
+    background-color: #FF8811;
+ }
+
+body {
+    overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
