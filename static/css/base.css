@@ -21,7 +21,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
-    margin-top: 80px;
     border-radius: 5px;
 }
  .halloween-sidebar a{
@@ -71,4 +70,15 @@ body {
     #wrapper.toggled #sidebar-wrapper {
         margin-left: -15rem;
     }
+}
+
+/* Ghost Stories */
+.ghost-picture {
+    background-image: url('/media/doorway.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 150px;
+    border-radius: 5px;
 }
