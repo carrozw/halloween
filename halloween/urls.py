@@ -25,4 +25,6 @@ urlpatterns = [
     path('stories', include('stories.urls')),
     path('party', include('party.urls')),
     path('movies', include('movies.urls')),
+    path('quizzes', include('quizzes.urls')),
+    path('about', include('about.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
