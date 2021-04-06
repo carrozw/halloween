@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'about',
     'tracks',
     'links',
+    'myprofile',
 ]
 
 MIDDLEWARE = [
